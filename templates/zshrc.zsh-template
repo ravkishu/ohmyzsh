@@ -124,6 +124,6 @@ fi
 
 # bash_profile
 # ============
-source $ZSH_CUSTOM/zsh-syntax-highlighting.zsh
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH_CUSTOM/zsh-autosuggestions.zsh
 # source ~/.bash_profile
