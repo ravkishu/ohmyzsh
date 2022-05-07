@@ -126,4 +126,10 @@ fi
 # ============
 source ~/.oh-my-zsh/custom/zsh-syntax-highlighting.zsh
 source $ZSH_CUSTOM/zsh-autosuggestions.zsh
+source '/root/lib/azure-cli/az.completion'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+precmd () { echo -n "\x1b]1337;CurrentDir=$(pwd)\x07" }
+autoload -U compinit; compinit
+
 # source ~/.bash_profile
